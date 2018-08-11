@@ -1,10 +1,13 @@
 /*My name in the navbar*/
-.name2{
+.name{
     text-align:center;
-    font-size:38px;
+    font-size:20px;
     background-color: #4aaaa5;
     color: #ffffff;
     padding:4px;
+    width:150px;
+    line-height: 40px;
+    margin-left: 20px;
 }
 /*Name and clickable pages "contact, portfolio, about"*/
 ul{
@@ -31,7 +34,7 @@ li a:hover{
 
 /*nav bar only no header*/
 .navBar{
-    margin-left:440px;
+    margin-left:480px;
     margin-right:480px;
 }
 /*header including navbar*/
