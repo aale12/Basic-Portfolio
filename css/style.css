@@ -22,6 +22,7 @@ li a{
     color:#777777;
     text-decoration:none;
     padding: 14px 16px;
+    line-height: 50px;
 }
 
 li a:hover{
