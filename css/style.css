@@ -1,37 +1,49 @@
-.navBar{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    margin-left:480px;
-    margin-right:480px;
+/*My name in the navbar*/
+.name2{
+    text-align:center;
+    font-size:38px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding:4px;
 }
-a{
+/*Name and clickable pages "contact, portfolio, about"*/
+ul{
     list-style-type: none;
-    display:block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+    overflow:hidden;
+    padding-top: 50px;
 }
 li{
-    float: right;
-    border-right: 1px solid wheat;
+    float:right;
+    display:inline;
 }
+li a{
+
+    display:block;
+    color:#777777;
+    text-decoration:none;
+    padding: 14px 16px;
+}
+
 li a:hover{
-    background-color: gainsboro;
+    background-color: #4aaaa5;
 }
-.isActive{
-    background-color:green;
-}
-h1{
-    background-color:cyan;
-    margin-left:480px;
+
+/*nav bar only no header*/
+.navBar{
+    margin-left:440px;
     margin-right:480px;
 }
+/*header including navbar*/
+.header{
+    background-color:#ffffff;
+}
+a{
+    display: block;
+    padding: 8px;
+    background-color: #ffffff;
+}
 .main{
-    background-color: #FFFFFf;
+    background-color: #ffffff;
     margin-left: 480px;
     margin-right: 480px;
 }
@@ -46,6 +58,7 @@ img{
 }
 .aboutsummary{
     margin-left:20px;
+    color: #777777;
     
 }
 h2{
