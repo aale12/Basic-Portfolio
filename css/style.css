@@ -17,6 +17,7 @@ a{
 }
 li{
     float: right;
+    border-right: 1px solid wheat;
 }
 li a:hover{
     background-color: gainsboro;
@@ -29,6 +30,26 @@ h1{
     margin-left:480px;
     margin-right:480px;
 }
+.main{
+    background-color: #FFFFFf;
+    margin-left: 480px;
+    margin-right: 480px;
+}
 body{
-    background-color: antiquewhite;
+    background-image: url("../images/oriental.png");
+}
+img{
+    float:left;
+    height: 200px;
+    width: 200px;
+    padding: 25px;
+}
+.aboutsummary{
+    margin-left:20px;
+    
+}
+h2{
+    text-align:left;
+    color: #4aaaa5;
+    padding: 25px;
 }
