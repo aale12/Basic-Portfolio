@@ -96,7 +96,7 @@ hr{
     line-height:1.7em;
     color: #707373;
     /*find out how to make the footer sticky without having giant blank space in the about me*/
-    flex:1;
+    flex:1 0 auto;
 }
 /* .push{
     margin:auto;
@@ -135,6 +135,10 @@ footer{
     flex-shrink:0;
     border-top: 7px solid #500000;
     line-height:75px;
+    position:fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 form{
     font-family: 'Tungsten A', 'Tungsten B', sans-serif;
